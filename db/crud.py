@@ -45,7 +45,7 @@ def read_persons_by_dig(
         threshold: int = 8  # ✅ 关键：数据源阈值
 ) -> Sequence["Person"]:
     """
-    深度查询（带深度限制 + 性能优化版）
+    深度查询（带深度限制）
 
     参数说明：
     - max_depth: 最大扩散层数（类似 BFS 层级）

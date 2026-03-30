@@ -17,7 +17,7 @@ from lib.masking import mask_list
 app = FastAPI(
     root_path="/leak-check",
     title="172.16.1.4",
-    version="1.0.0",
+    version="1.2.0",
     summary="个人信息 “泄漏” 查询接口",
     contact={
         "name": "嘉林数据",
