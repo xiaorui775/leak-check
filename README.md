@@ -7,7 +7,7 @@ curl -LsSf https://raw.githubusercontent.com/garinasset/leak-check/refs/heads/ma
 ```
 
 ### 📊 “数据拷贝” 与 “数据库”
-本项目不提供 “数据拷贝”. For “数据库”, 您可以采用任何你喜欢的数据库, 本项目采用 “sqlite”. "数据库" 创建 与 结构如下:
+本项目不提供 “数据拷贝”. For “数据库”, 您可以采用任何你喜欢的数据库, 本项目采用 “sqlite”.
 ```bash
 cd leak-check
 
