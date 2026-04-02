@@ -6,13 +6,14 @@
 2. “不提供”「更多信息」
 3. “别忘记”「舆论监督」
 
-### 🚀 “安装” 与 “开发”
+### 🚀 开发
+使用我们的安装脚本, 快速构建开发环境.
 ```bash
 curl -LsSf https://raw.githubusercontent.com/garinasset/leak-check/refs/heads/main/install.sh | bash
 ```
 
-### 📊 “数据拷贝” 与 “数据库”
-本项目不提供 “数据拷贝”. For “数据库”, 您可以采用任何你喜欢的数据库, 本项目采用 ➡️ [SQLite](https://sqlite.org/).
+### 📊 数据库
+本项目不提供 “数据拷贝”, For “数据库”, 您可以采用任何你喜欢的数据库, 本项目采用 ➡️ [SQLite](https://sqlite.org/).
 ```bash
 cd leak-check
 
@@ -45,9 +46,9 @@ CREATE TABLE person(
     FOREIGN KEY (source_id) REFERENCES source(id)
 );
 ```
-### 🗑️ 完全卸载
+### 🗑️ 完全删除
 
-如果需要完全卸载:
+如果需要完全删除:
 
 ```bash
 # 删除项目目录即可
