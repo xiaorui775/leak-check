@@ -28,5 +28,4 @@ uv sync --frozen
 echo "开发环境部署完成"
 echo ""
 echo "启动服务："
-echo "cd leak-check"
 echo "uv run uvicorn main:app --host 0.0.0.0 --port 8000"
