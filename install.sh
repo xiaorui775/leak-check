@@ -8,7 +8,7 @@ echo "正在检测 uv（Python 包管理工具) 环境"
 if command -v uv >/dev/null 2>&1; then
     echo "uv 已安装."
 else
-    echo "未检测到 uv，正在安装"
+    echo "未检测到 uv，正在使用官方脚本进行安装"
     curl -LsSf https://astral.sh/uv/install.sh | sh
 fi
 
@@ -18,6 +18,7 @@ cd leak-check
 
 echo "正在安装 Python 3.14"
 uv python install 3.14
+uv python list
 
 echo "正在创建虚拟环境"
 uv venv
