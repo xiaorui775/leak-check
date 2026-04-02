@@ -1,6 +1,11 @@
 ### ✨ “泄漏” 与 “检测” 定义
 您的 “个人信息” 出现在被 “互联网” 广泛传播的 “部分” 数据中.
 
+### 📢 宣言
+1. “不记录”「查询记录」
+2. “不提供”「隐私信息」
+3. “别忘记”「舆论监督」
+
 ### 🚀 “安装” 与 “开发”
 ```bash
 curl -LsSf https://raw.githubusercontent.com/garinasset/leak-check/refs/heads/main/install.sh | bash
