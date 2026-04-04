@@ -16,6 +16,9 @@ echo "正在获取项目代码"
 git clone https://github.com/garinasset/leak-check.git
 cd leak-check
 
+echo "正在引入示例数据库"
+cp ./example.db ./db/leak-check.db
+
 echo "正在安装 Python 3.14"
 uv python install 3.14
 uv python list
@@ -29,4 +32,5 @@ uv sync --frozen
 echo "开发环境部署完成"
 echo ""
 echo "启动服务："
+echo "cd leak-check"
 echo "uv run uvicorn main:app --host 0.0.0.0 --port 8000"
